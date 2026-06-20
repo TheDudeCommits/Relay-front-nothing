@@ -1,0 +1,18 @@
+# relay-demo-front — the relay.credit consumer dashboard (Vite SPA).
+# Joins the existing external `veil` network so the shared veil-nginx reverse
+# proxy resolves it by container name and serves it at relay.credit.
+#
+#   docker compose up -d --build
+services:
+  relay-frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: relay-frontend
+    restart: unless-stopped
+    networks:
+      - veil
+
+networks:
+  veil:
+    external: true

@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Relay — let your AI agent spend safely with crypto cards. Authorize, set limits, stay in control."
+    />
+    <title>Relay</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Nothing-style stack: Doto (dot-matrix hero), Space Grotesk (UI), Space Mono (data/labels) -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Doto:wght@500;700&family=Space+Grotesk:wght@300;400;500;700&family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- This is a client-rendered SPA, so the visible content loads via JS.
+         The agent-readable docs live at the URLs below. -->
+    <span style="display: none;"
+      >Are you an AI agent or LLM? Read <a href="/llms.txt">/llms.txt</a> for how to use
+      Relay (auth, KYC status, and buying/topping up crypto-funded virtual cards over the
+      API), or <a href="/SKILL.md">/SKILL.md</a> for the full instructions.</span
+    >
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
