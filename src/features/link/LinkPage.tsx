@@ -1,4 +1,4 @@
-import { Navigate, useNavigate, useSearchParams } from 'react-router-dom';
+import { Navigate, useNavigate, useSearchParams } from 'react-router';
 import { useMutation } from '@tanstack/react-query';
 import { AlertTriangle, CheckCircle2, Link2, Loader2 } from 'lucide-react';
 import { useAuth } from '../../auth/useAuth';

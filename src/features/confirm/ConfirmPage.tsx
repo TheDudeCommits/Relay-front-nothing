@@ -1,4 +1,4 @@
-import { useSearchParams } from 'react-router-dom';
+import { useSearchParams } from 'react-router';
 import { useMutation } from '@tanstack/react-query';
 import { AlertTriangle, ArrowRight, Check, Loader2, Mail } from 'lucide-react';
 import { useAuth } from '../../auth/useAuth';

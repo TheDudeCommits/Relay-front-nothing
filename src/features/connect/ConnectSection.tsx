@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router';
 import { MessageSquare, Terminal } from 'lucide-react';
 import { config } from '../../config';
 import { Panel } from '../../components/ui/Panel';
