@@ -1,4 +1,4 @@
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router';
 import { Check, ShieldCheck } from 'lucide-react';
 import { Panel } from '../../components/ui/Panel';
 import { formatMoney } from '../../lib/format';

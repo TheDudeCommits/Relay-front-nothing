@@ -1,4 +1,4 @@
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router';
 import { AlertTriangle, Loader2, ShieldCheck } from 'lucide-react';
 import { Panel } from '../../components/ui/Panel';
 import { Button } from '../../components/ui/Button';
